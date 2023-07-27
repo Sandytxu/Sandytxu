@@ -1,0 +1,28 @@
+{
+    "maquinas_resueltas": [
+        {
+            "nombre": "Máquina 1",
+            "web": "HacktheBox",
+            "ip": "192.168.0.100",
+            "vulnerabilidades": ["CVE-2021-1234", "CVE-2021-1023"],
+            "descripcion": "Máquina de HacktheBox con vulnerabilidades CVE-2021-1234 y CVE-2021-1023",
+            "writeup": "../maquinas/maquina1/index.html"
+        },
+        {
+            "nombre": "Máquina 2",
+            "web": "HacktheBox",
+            "ip": "192.168.0.101",
+            "vulnerabilidades": ["CVE-2021-1234", "CVE-2021-1023"],
+            "descripcion": "Máquina de HacktheBox con vulnerabilidades CVE-2021-1234 y CVE-2021-1023",
+            "writeup": "../maquinas/maquina2/index.html"
+        },
+        {
+            "nombre": "Máquina 2",
+            "web": "HacktheBox",
+            "ip": "192.168.0.101",
+            "vulnerabilidades": ["CVE-2021-1234", "CVE-2021-1023"],
+            "descripcion": "Máquina de HacktheBox con vulnerabilidades CVE-2021-1234 y CVE-2021-1023",
+            "writeup": "../maquinas/maquina2/index.html"
+        }   
+    ]
+}

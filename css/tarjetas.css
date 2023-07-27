@@ -1,0 +1,25 @@
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: white;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* Media query para mostrar 3 tarjetas por fila en pantalla*/
+@media (min-width: 768px){
+    .tarjeta {
+        width: calc(33.33% - 20px);
+    }
+}
+
+.boton-writeup {
+    float: right;
+}
