@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* CSS Document */
 body{
 	margin: 0;
@@ -28,16 +29,16 @@ body{
 	overflow:hidden;
 }
 
-@keyFrames typing {
+@keyframes typing {
 	from { width: 0}
 }
 
-@keyFrames blink {
+@keyframes blink {
 	50% { border-color: transparent}
 }
 
 nav{
-	color: #ffffff;
+	color: #C4FFB2;
 	padding:10px;
 	display: flex;
 	justify-content: flex-end;
@@ -59,7 +60,7 @@ nav ul{
 
 nav ul li{
 	margin-left: 30px;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #C4FFB2;
 	padding-right: 30px;
 }
 
@@ -70,7 +71,7 @@ nav ul li:last-child {
 
 nav ul li a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #C4FFB2;
 	font-family: monospace;
 	font-size: 15px;
 }

@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fuentes/Roboto-Regular.ttf') format('truetype');
+}
+
+.presentacion {
+    background-color: #C4FFB2;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: 'Roboto';    
+}
+
+.presentacion h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
