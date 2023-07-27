@@ -16,12 +16,12 @@
     color: black;
     word-wrap: break-word;
     white-space: normal;
-    background-color: #C4FFB2;
+    background-color: #C4FFB2 !important;
     font-family: monospace;
 }
 
 .tarjeta h2{
-    font-family: 'Roboto';
+    font-family: 'Roboto' !important;
 }
 
 /* Media query para mostrar 3 tarjetas por fila en pantalla*/
