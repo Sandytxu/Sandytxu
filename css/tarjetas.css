@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fuentes/Roboto-Regular.ttf') format('truetype');
+}
+
 .tarjeta {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -13,11 +18,6 @@
     white-space: normal;
     background-color: #C4FFB2;
     font-family: monospace;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	src: url('fuentes/Roboto-Regular.ttf') format('truetype');
 }
 
 .tarjeta h2{
