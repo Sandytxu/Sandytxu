@@ -1,4 +1,30 @@
-.presentacion{
+
+#contenedor{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+}
+
+#presentacionIzq{
     color: white;
-    /* HAY QUE ORDENAR ESTO+ */
+    position: absolute;
+    top: 130px;
+    right: 0;
+    left: 50%;
+    height: 40px;
+    background-color: red;
+    border-radius: 0 10px 10px 0;
+}
+
+#presentacionDer{
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 50%;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px 0 0 10px;
 }
