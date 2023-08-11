@@ -11,20 +11,21 @@
     color: white;
     position: absolute;
     top: 130px;
-    right: 0;
-    left: 50%;
+    right: 50%;
+    left: 0%;
     height: 40px;
     background-color: red;
-    border-radius: 0 10px 10px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    border-top-right-radius: 20px;
 }
 
 #presentacionDer{
     color: white;
     position: absolute;
     top: 130px;
-    left: 0;
-    right: 50%;
+    left: 50%;
+    right: 0%;
     height: 40px;
     background-color: green;
-    border-radius: 10px 0 0 10px;
+    /*border-radius: 10px 0 0 10px;*/
 }
